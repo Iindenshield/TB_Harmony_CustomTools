@@ -11,7 +11,9 @@ A small collection of custom tools for Toon Boom Harmony.
 # matchPivot.js
 Match all selected (target) layer(s)' pivot point to the last selected (source) layer's pivot, without moving the layers themselves.
 
+## Implementation
+
 ## Further improvements
-Harmony treats selections of different types inconsistently. Harmony tends to reorder selected nodes based on type rather than respecting selection order. DISCLAIMER: selection order is preserved with READ and PEG type layers only (not if source = READ and one of the target is its parent PEG. The parent PEG is going to be the source).
+Harmony treats selections of different node types inconsistently. Therefore, it might reorder selected nodes based on type rather than respecting selection order. My goal is to find a workaround and implement a `matchTransform` tool similar to Autodesk Maya's.
 
 # armRig.js
