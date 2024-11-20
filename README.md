@@ -6,7 +6,7 @@ A small collection of custom tools for Toon Boom Harmony.
 ##### Scripts
 [matchPivot](#src/IF_MatchPivot.js)
 
-[armRig](#armRig.js)
+[armRig](https://github.com/Iindenshield/TB_Harmony_CustomTools/blob/main/src/IF_MatchPivot.js)
 
 # matchPivot.js
 Match all selected (target) layer(s)' pivot point to the last selected (source) layer's pivot, without moving the layers themselves.
