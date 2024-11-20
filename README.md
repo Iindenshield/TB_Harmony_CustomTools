@@ -4,7 +4,7 @@ A small collection of custom tools for Toon Boom Harmony.
 ###### DISCLAIMER: This project has been a stepping stone in my Toon Boom Harmony scripting journey; a powerfull tool for improving my confidence in programming, understanding Harmony's internal processes, and improving my problem-solving skills. Any feedback/suggestions are greatly appreciated, thanks!
 
 ##### Scripts
-[matchPivot](#matchPivot.js)
+[matchPivot](#src/IF_MatchPivot.js)
 
 [armRig](#armRig.js)
 
