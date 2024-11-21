@@ -34,6 +34,18 @@ In the same directory, place any icon files in the **script-icons** folder.
 Harmony's website for more detailed instructions:
 https://docs.toonboom.com/help/harmony-16/premium/scripting/import-script.html
 
+## Acknowledgments
+
+* [TB Harmony Premium 20 - User Guide - Scripting](https://docs.toonboom.com/help/harmony-20/premium/scripting/about-scripting.html)
+* [AutoPatch Articulation](https://docs.toonboom.com/help/harmony-14/premium/rigging/about-auto-patch-articulation.html)
+* [Harmony 20 Scripting Interface](https://docs.toonboom.com/help/harmony-20/scripting/script/index.html)
+* [Introduction to Cut-out Animation with TB Harmony](https://www.youtube.com/watch?v=PJNvQRwqNFg&list=PLK9S2UOwD12pvwJu85tY2zFmJ-wcjc5xQ&index=2)
+* [Collab Hub - TB Harmony Scripts for PSD Import & Auto Rig](https://collabhub.gumroad.com/l/oXgMz)
+* [Yu Ueda - Harmony Scripts](https://raindropmoment.com/harmony-script/z)
+* [Jason Schleifer - Harmony](https://github.com/shhlife/harmony/tree/master)
+
+
+
 ## Author
 
 **Iolanda Filipponi** - [linkedIn](https://www.linkedin.com/in/iolandafilipponi/)
