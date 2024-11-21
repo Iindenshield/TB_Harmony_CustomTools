@@ -18,4 +18,4 @@ Match all selected (target) layer(s)' pivot point to the last selected (source) 
 # armRig.js
 Build a simple arm rig.
 
-:arrow_right_hook: Code analysis: [matchPivot.js Wiki](https://github.com/Iindenshield/TB_Harmony_CustomTools/wiki/matchPivot.js)
+:arrow_right_hook: Code analysis: [armRig.js Wiki](https://github.com/Iindenshield/TB_Harmony_CustomTools/wiki/armRig.js)
