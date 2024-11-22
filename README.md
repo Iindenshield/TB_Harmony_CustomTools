@@ -18,7 +18,7 @@ ToonBoom Harmony Premium 20
 
 
 **armRig.js**
-> Build a simple arm rig.
+> This script is a first attempt to create an arm module for an autorigging framework within TB Harmony. The ultimate goal is to create a custom solution to automate steps of the 2D rigging process (like mGear for Autodesk Maya).
 
 :arrow_right_hook: Code analysis: [armRig.js Wiki](https://github.com/Iindenshield/TB_Harmony_CustomTools/wiki/armRig.js)
 
