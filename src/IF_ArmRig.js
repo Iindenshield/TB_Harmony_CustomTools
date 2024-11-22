@@ -65,7 +65,7 @@ function armRig() {
 	}
 
 	// check if arm master peg exists. If not, create it
-	if (listOfAllNodes.indexOf(armGrp + "/Arm_MASTER-P") === -1) {	/*node.noNode to check if exists. You are working in an older environment where includes() is not supported. If the specified element does not exist in the array, indexOf() returns -1*/
+	if (listOfAllNodes.indexOf(armGrp + "/Arm_MASTER-P") === -1) {
 		var masterArm = node.add("Top", "Arm_MASTER-P", "PEG", 0,0,0);	//ex armGrp	
 	}
 	else {
@@ -168,14 +168,15 @@ function armRig() {
 
 
 function getAllDescendants(parentNodePath) {
-	/* node.subNodes() only retrieves the direct child nodes connected to a specified parent. So, this function gets all nodes in the scene (hence all Top node's children)*/
+	
 	var listOfDescendants = [];
 	var directChildren = node.subNodes(parentNodePath);
 
-// Loop through all direct children
+	// Loop through all direct children
 	for (var c = 0; c < directChildren.length; c++) {
 		var child = directChildren[c];
-		listOfDescendants.push(child); // Add child to descendants list
+		// Add child to descendants list
+		listOfDescendants.push(child); 
 
 		// Recursively find and add grandchildren and beyond
 		var childDescendants = getAllDescendants(child);
@@ -209,7 +210,7 @@ function makeList(elements, nElements) {
 
 
 function getParentLayer(inputNode, listOfLayers) {
-	/* get parent. If parent is Top (for example Top/Hand's parent is Top), node.srcNode returns "" becauseit returns "" for nodes directly connected to "Top"*/
+	// get parent
 	var parentNodePath = node.srcNode(inputNode,0);
 	// if parent is one of the selected layers, get name
 	if (listOfLayers.indexOf(parentNodePath) !== -1) {
@@ -229,7 +230,7 @@ function renameSublayers(sceneNodes, selNodes) {
 	});
 	var n_sn = sceneNodes.length;
 	for (var s=0; s < n_sn; s++) {
-		// get node's parent --> node.parentNode(sceneNodes[s]) returns Top because it's the actual parent so we need the path for the module that the port is linked to.
+		// get node's parent
 		var currentNode = sceneNodes[s];
 		var parentNodePath = getParentLayer(currentNode, selNodes);
 		// in javascript "" = false
@@ -239,7 +240,6 @@ function renameSublayers(sceneNodes, selNodes) {
 			node.rename(currentNode, parentNodeName + "_" + currentNodeName);
 			// update node's name in sceneNodes list too (fixes cutter and hand_Line-Art)
 			sceneNodes[s] = parentNodePath + "/" + parentNodeName + "_" + currentNodeName;
-			
 		}
 	}
 	return;
