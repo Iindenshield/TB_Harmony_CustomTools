@@ -1,3 +1,4 @@
+// Author: Iolanda Filipponi https://www.linkedin.com/in/iolandafilipponi/
 // Script to build simple arm rig
 
 function armRig() {
