@@ -1,6 +1,6 @@
+// Author: Iolanda Filipponi https://www.linkedin.com/in/iolandafilipponi/
 // Match all selected (target) layer (s)' pivot point to the last selected (source) layer's pivot, without moving the layers themselves.
 // click target (s) first, source later
-// Author: Iolanda Filipponi https://www.linkedin.com/in/iolandafilipponi/
 
 function matchPivot() {
 	
